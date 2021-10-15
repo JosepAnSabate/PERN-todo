@@ -1,4 +1,4 @@
-import React, {fragment} from 'react';
+import React, {Fragment} from 'react';
 import './App.css';
 
 // components
@@ -7,12 +7,14 @@ import ListTodos from "./components/ListTodos";
 
 
 function App() {
-  return <fragment>
+  return (
+     <Fragment>
     <div className="container">
       <InputTodo />
       <ListTodos />
     </div>
-  </fragment>;
- }
+     </Fragment>
+  );
+}
 
 export default App;
