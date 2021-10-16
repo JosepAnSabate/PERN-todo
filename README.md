@@ -16,4 +16,4 @@ Get one todo, delete, update 	/todos/:id
 
 ```
 
-![scheme](./img/esquema.png)
+![scheme](./img/esquema.PNG)
